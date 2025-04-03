@@ -1,8 +1,27 @@
-let numero = 3
-let dias = ["domingo", "segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira", "sábado"]
+let numero = 2
 
-if (numero >= 1 && numero <= 7) {
-    console.log("o dia correspondente é:", dias[numero - 1])
-} else {
-    console.log("número inválido. digite um número entre 1 e 7.")
+switch (numero) {
+    case 1:
+        console.log("domingo");
+        break;
+    case 2:
+        console.log("segunda-feira")
+        break;
+    case 3:
+        console.log("terça-feira");
+        break;
+    case 4:
+        console.log("quarta-feira");
+        break;
+    case 5:
+        console.log("quinta-feira");
+        break;
+    case 6:
+        console.log("sexta-feira");
+        break;
+    case 7:
+        console.log("sábado");
+        break;
+    default:
+        console.log("número inválido. digite um valor entre 1 e 7.");
 }
